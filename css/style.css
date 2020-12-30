@@ -1,0 +1,239 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#eq-stats {
+    background-color: #373737;
+}
+
+.section {
+    text-align: center;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+.magnitude-legend {
+    line-height: 200px;
+    color: #555;
+}
+
+.magnitude-legend i:hover {
+    background-color: #bbdefb;
+    border-color: #0d47a1;
+}
+
+.magnitude-legend > .mag-5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    /*margin-right: 0px;*/
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.magnitude-legend > .mag-4 {
+    width: 160px;
+    height: 160px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 40px;
+    margin-left: -180px;
+}
+
+.magnitude-legend > .mag-3 {
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 80px;
+    margin-left: -160px;
+}
+
+.magnitude-legend > .mag-2 {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 120px;
+    margin-left: -140px;
+}
+
+.magnitude-legend > .mag-1 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 160px;
+    margin-left: -120px;
+}
+
+.magnitude-legend p {
+    font-size: 12px;
+    line-height: 12px;
+    float: left;
+    color: black;
+}
+
+.legend {
+    line-height: 100px;
+    color: #555;
+}
+
+.legend i:hover {
+    border-style: solid;
+    border-color: #64b5f6;
+    border-width: 5px;
+}
+
+.legend > .num-8 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #b71c1c;
+}
+
+.legend > .num-7 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #EC8E77;
+}
+
+.legend > .num-6 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #F9D1BF;
+}
+
+.legend > .num-5 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #EADCD4;
+}
+
+.legend > .num-4 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #C9D9F6;
+}
+
+.legend > .num-3 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #B3CCFF;
+}
+
+.legend > .num-2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #8AA7F7;
+}
+
+.legend > .num-1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.7;
+    background-color: #7287DE;
+}
+
+.legend-line {
+    margin-top: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 800px;
+}
+
+#eq-1 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#eq-map-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.earthquake-mag-legend {
+    line-height: 50px;
+    z-index: 500;
+    height: 80px;
+}
+
+.earthquake-mag-legend i:hover {
+    background-color: #bbdefb;
+    border-color: #1565c0;
+}
+
+#eq-2 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#eq-map-2 {
+    height: 100%;
+    width: 100%;
+}
+
+#eq-3 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#eq-map-3 {
+    height: 100%;
+    width: 100%;
+}
+
+#eq-4 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#eq-map-4 {
+    height: 100%;
+    width: 100%;
+}
